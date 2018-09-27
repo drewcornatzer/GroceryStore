@@ -16,14 +16,17 @@ int main()
   cout<<"\n (Q)uit";
   cout<<"\nYour choice (A/Q): ";
   cin>>input;
-  if(numItems==5 && (input=='a'|| input=='A')){
-    cout<<"ERROR: You'll need a bigger list!"<<endl;
-}
-  else  if(input=='a'||input=='A'){
+  if(input=='a'||input=='A'){
   cout<<"What is the item?"<<endl;
+  if(numItems==5){
+    cout<<"You'll need a bigger list!"<<endl;
+}
+  else{
   cin>>list[numItems];
-}  
   numItems++;
-} while(input!='Q'&& numItems!=6);
+}
+}  
+
+} while(input!='Q');
   return 0;
 }
