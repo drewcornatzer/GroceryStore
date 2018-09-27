@@ -23,5 +23,6 @@ do{
   cout<<"What is the item?"<<endl;
   cin>>list[numItems];
   numItems++;}
-}while(input!='Q')
+}while(input!='Q');
   return 0;
+}
