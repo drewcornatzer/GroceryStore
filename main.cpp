@@ -22,8 +22,8 @@ int main()
   else  if(input=='a'||input=='A'){
   cout<<"What is the item?"<<endl;
   cin>>list[numItems];
-  numItems++;  
-}
-} while(input!='Q');
+}  
+  numItems++;
+} while(input!='Q'&& numItems!=6);
   return 0;
 }
