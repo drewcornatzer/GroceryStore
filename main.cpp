@@ -36,7 +36,7 @@ int main()
         for(int index=0;index<5;index++)
         {
                 cout<<index+1;
-                cout<<"  "<<list[index]<<endl;
+                cout<<" "<<list[index]<<endl;
         }
         return 0;
 }
