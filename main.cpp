@@ -41,7 +41,7 @@ int main()
                 {
                 deleteditem=list.back();
                 list.pop_back();
-                cout<<deleteditem<<" was deleted from the list. \n";
+                cout<<deleteditem<<" was deleted from the list.\n";
                 }
         }
         while(input!='Q'&& input!='q');
